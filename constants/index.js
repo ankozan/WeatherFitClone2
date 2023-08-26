@@ -1,4 +1,4 @@
-export const apiKey = 'place your api key here from : https://www.weatherapi.com';
+export const apiKey = '78b83d2610dc41679a4200242230707';
 
 export const weatherImages = {
     'Partly cloudy': require('../assets/images/partlycloudy.png'),
@@ -16,5 +16,36 @@ export const weatherImages = {
     'Moderate or heavy rain shower': require('../assets/images/heavyrain.png'),
     'Moderate or heavy rain with thunder': require('../assets/images/heavyrain.png'),
     'Mist': require('../assets/images/mist.png'),
+    'temperature_between_0_50_1': require('../assets/clothes/men/norain/0-50/1.png'),
+    'temperature_between_0_50_2': require('../assets/clothes/men/norain/0-50/2.png'),
+    'temperature_between_0_50_3': require('../assets/clothes/men/norain/0-50/3.png'),
+    'temperature_between_0_50_4': require('../assets/clothes/men/norain/0-50/4.png'),
+    'temperature_between_0_50_5': require('../assets/clothes/men/norain/0-50/5.png'),
+    'temperature_between_0_50_6': require('../assets/clothes/men/norain/0-50/6.png'),
+    'temperature_between_0_50_7': require('../assets/clothes/men/norain/0-50/7.png'),
+    'temperature_between_50_60_1': require('../assets/clothes/men/norain/50-60/1.png'),
+    'temperature_between_60_80_1': require('../assets/clothes/men/norain/60-80/1.png'),
+    'temperature_between_60_80_2': require('../assets/clothes/men/norain/60-80/2.png'),
+    'temperature_between_80_90_1': require('../assets/clothes/men/norain/80-90/1.png'),
+    'temperature_between_80_90_2': require('../assets/clothes/men/norain/80-90/2.png'),
+    'temperature_between_80_90_3': require('../assets/clothes/men/norain/80-90/3.png'),
+    'temperature_between_80_90_4': require('../assets/clothes/men/norain/80-90/4.png'),
+    'temperature_between_80_90_5': require('../assets/clothes/men/norain/80-90/5.png'),
+
+    'rain_1': require('../assets/clothes/men/norain/rain/1.png'),
+    'rain_2': require('../assets/clothes/men/norain/rain/2.png'),
+    'rain_3': require('../assets/clothes/men/norain/rain/3.png'),
+    'rain_4': require('../assets/clothes/men/norain/rain/4.png'),
+    'rain_5': require('../assets/clothes/men/norain/rain/5.png'),
+    'rain_6': require('../assets/clothes/men/norain/rain/6.png'),
+    'rain_7': require('../assets/clothes/men/norain/rain/7.png'),
+    'rain_8': require('../assets/clothes/men/norain/rain/8.png'),
+    'temperature_between_80_90_message': 'Wear light and breathable clothing.',
+    'temperature_between_60_80_message': 'Consider wearing a light jacket.',
+    'temperature_between_50_60_message': 'Bundle up with warm clothing.',
+    'temperature_between_0_50_message': 'Bundle up with warm clothing.',
+    'temperature_between_0_50_message': 'Bundle up with warm clothing.',
+    'rain_message': 'Wear rain gear',
+
     'other': require('../assets/images/moderaterain.png')
 }
