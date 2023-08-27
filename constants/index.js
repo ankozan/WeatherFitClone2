@@ -23,14 +23,23 @@ export const weatherImages = {
     'temperature_between_0_50_5': require('../assets/clothes/men/norain/0-50/5.png'),
     'temperature_between_0_50_6': require('../assets/clothes/men/norain/0-50/6.png'),
     'temperature_between_0_50_7': require('../assets/clothes/men/norain/0-50/7.png'),
+
     'temperature_between_50_60_1': require('../assets/clothes/men/norain/50-60/1.png'),
+    'temperature_between_50_60_2': require('../assets/clothes/men/norain/50-60/2.png'),
+    'temperature_between_50_60_3': require('../assets/clothes/men/norain/50-60/3.png'),
+
     'temperature_between_60_80_1': require('../assets/clothes/men/norain/60-80/1.png'),
     'temperature_between_60_80_2': require('../assets/clothes/men/norain/60-80/2.png'),
+    'temperature_between_60_80_3': require('../assets/clothes/men/norain/60-80/3.png'),
+    'temperature_between_60_80_4': require('../assets/clothes/men/norain/60-80/4.png'),
+    'temperature_between_60_80_5': require('../assets/clothes/men/norain/60-80/5.png'),
+
     'temperature_between_80_90_1': require('../assets/clothes/men/norain/80-90/1.png'),
     'temperature_between_80_90_2': require('../assets/clothes/men/norain/80-90/2.png'),
     'temperature_between_80_90_3': require('../assets/clothes/men/norain/80-90/3.png'),
     'temperature_between_80_90_4': require('../assets/clothes/men/norain/80-90/4.png'),
     'temperature_between_80_90_5': require('../assets/clothes/men/norain/80-90/5.png'),
+    'temperature_between_80_90_6': require('../assets/clothes/men/norain/80-90/6.png'),
 
     'rain_1': require('../assets/clothes/men/norain/rain/1.png'),
     'rain_2': require('../assets/clothes/men/norain/rain/2.png'),

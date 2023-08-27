@@ -73,7 +73,7 @@ export default function HomeScreen() {
   if (temperature >= 0 && temperature <= 49) {
 
     const randomNumber = Math.floor(Math.random() * 7) + 1;
-    temperatureImageKey = 'temperature_between_0_50_' + randomNumber; // Update with the appropriate image key
+    temperatureImageKey = 'temperature_between_0_50_' + 3; // Update with the appropriate image key
     recommendedoutfit = 'temperature_between_0_50_message';
 
 
@@ -81,15 +81,15 @@ export default function HomeScreen() {
   else if (temperature >= 50 && temperature <= 59) {
 
     const randomNumber = Math.floor(Math.random() * 1) + 1;
-    temperatureImageKey = 'temperature_between_50_60_' + randomNumber; // Update with the appropriate image key
+    temperatureImageKey = 'temperature_between_50_60_' + 4; // Update with the appropriate image key
     recommendedoutfit = 'temperature_between_50_60_message';
 
 
   }
   else if (temperature >= 60 && temperature <= 79) {
 
-    const randomNumber = Math.floor(Math.random() * 2) + 1;
-    temperatureImageKey = 'temperature_between_60_80_' + randomNumber; // Update with the appropriate image key
+    const randomNumber = Math.floor(Math.random() * 4) + 1;
+    temperatureImageKey = 'temperature_between_60_80_' + 3; // Update with the appropriate image key
     recommendedoutfit = 'temperature_between_60_80_message';
 
 
@@ -98,7 +98,7 @@ export default function HomeScreen() {
   else if (temperature >= 80) {
 
     const randomNumber = Math.floor(Math.random() * 5) + 1;
-    temperatureImageKey = 'temperature_between_80_90_' + randomNumber; // Update with the appropriate image key
+    temperatureImageKey = 'temperature_between_80_90_' + 6; // Update with the appropriate image key
     recommendedoutfit = 'temperature_between_80_90_message';
 
 
@@ -188,7 +188,7 @@ export default function HomeScreen() {
                 <Image
                   // source={{uri: 'https:'+current?.condition?.icon}} 
                   source={weatherImages[temperatureImageKey || 'other']}
-                  className="w-60 h-60"
+                  className="w-60 h-80"
                 />
 
               </View>
